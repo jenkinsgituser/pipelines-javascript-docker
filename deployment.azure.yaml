@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: java 
-        image: swbdevacrweb.azurecr.io/k8sjava:$(Build.BuildId)
+        image: swbdevacrweb.azurecr.io/k8sjava:latest
         ports: 
         - containerPort: 80 
 --- 
